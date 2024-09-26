@@ -1,0 +1,145 @@
+/* Basic styles */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-image: url('https://www.example.com/backdrop-image.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.9); /* A subtle white overlay for readability */
+  background-blend-mode: overlay;
+}
+
+/* Header styles */
+header {
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black header */
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #4A148C, #1A237E); /* Purple to blue gradient */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+/* Section headings */
+h2 {
+  color: #4A148C; /* Deep purple */
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* About section */
+#about {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  padding: 40px 20px;
+  border-left: 5px solid #4A148C; /* Purple border */
+}
+
+#about p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Skills section */
+#skills {
+  background-color: #EDE7F6; /* Light purple shade */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#skills ul li {
+  background-color: #FFFFFF;
+  color: #333;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border-left: 5px solid #3E2723; /* Brown border */
+}
+
+/* Experience section */
+#experience {
+  background-color: #F1F8E9; /* Light green/white */
+  padding: 40px 20px;
+}
+
+#experience h3 {
+  color: #3E2723; /* Dark brown */
+  font-size: 1.4rem;
+}
+
+#experience p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Projects section */
+#projects {
+  background-color: #FFFFFF;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#projects a {
+  color: #0D47A1; /* Blue */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#projects a:hover {
+  color: #1A237E; /* Darker blue */
+}
+
+/* Contact section */
+#contact {
+  background-color: #3E2723; /* Dark brown */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#contact p {
+  font-size: 1.2rem;
+}
+
+#contact a {
+  color: #BBDEFB; /* Light blue */
+  text-decoration: underline;
+}
+
+#contact a:hover {
+  color: #90CAF9; /* Slightly darker blue */
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+    }
